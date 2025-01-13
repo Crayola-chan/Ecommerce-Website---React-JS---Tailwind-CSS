@@ -104,7 +104,7 @@ const Navbar = () => {
           }
           {/* Simple Dropdown Links */}
           <li className='group relative cursor-pointer'>
-            <a href="#" className='flex items-center gap-[2px] px-6 py-2'>
+            <a href="#" className='flex items-center gap-[2px] px-6 py-2 font-bold'>
               About Us
               <span>
                 <FaCaretDown className='transition-all duration-200 group-hover:rotate-180'/>
