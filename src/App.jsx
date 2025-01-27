@@ -2,6 +2,9 @@ import React from'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Products from './components/Products/Products'
+import TopProducts from './components/TopProducts/TopProducts'
+import Subscribe from './components/Subscribe/Subscribe'
+import Testimonials from './components/Testimonials/Testimonials'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -21,6 +24,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <Products />
+      <TopProducts />
+      <Subscribe />
+      <Testimonials />
     </div>
   )
 }

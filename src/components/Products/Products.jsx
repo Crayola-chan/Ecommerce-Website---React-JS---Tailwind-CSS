@@ -33,14 +33,13 @@ const Products = () => {
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
             <p data-aos="fade-up" className="text-3xl font-bold text-slate-200">Coming Soon</p>
-            <h1 data-aos="fade-up" className="text-2xl text-slate-500 font-semibold">Products</h1>
-            <p data-aos="fade-up" className="text-xs text-slate-200 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere architecto quisquam laborum?
+            <p data-aos="fade-up" className="text-s text-slate-400 ">
+                Are you ready for the next big games? Stay tuned for the latest updates!
             </p>
         </div>
         {/* Body section */}
         <div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 place-items-center gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 place-items-center gap-12">
                 {/* Card Section */}
                 {ProductsData.map((data) => (
                     <div 
@@ -54,9 +53,9 @@ const Products = () => {
                                 className="h-[220px] w-[500px] object-cover rounded-md"
                             />
                         </div>
-                        <div>
-                            <h3 className="font-semibold text-slate-300">{data.title}</h3>
-                            <p className="text-sm text-gray-400">{data.description}</p>
+                        <div className="p-1">
+                            <h3 className="font-semibold text-lg text-slate-300">{data.title}</h3>
+                            <p className="text-s text-gray-400">{data.description}</p>
                         </div>
                     </div>
                 ))}
