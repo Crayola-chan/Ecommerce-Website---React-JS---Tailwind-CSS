@@ -48,12 +48,12 @@ const Navbar = () => {
   return (
     <div className="shadow-md bg-gray-800">
       {/* upper Navbar */}
-      <div className="bg-gray-800 py-3">
+      <div className="bg-gray-800 py-0">
         <div className="container flex justify-between items-center">
           <div className="text-slate-100">
-            <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
+            <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2 items-center">
               <img src={Logo} alt="Logo" 
-                className="w-10 uppercase"
+                className="w-16 sm:w-20 lg:w-24 uppercase"
               />
               Electro Gaming
             </a>
